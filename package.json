@@ -12,9 +12,9 @@
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "@types/jest": "^27.5.2",
-    "@types/node": "^16.18.108",
     "@types/react": "^18.3.6",
     "@types/react-dom": "^18.3.0",
+    "axios": "^1.12.2",
     "formik": "^2.4.6",
     "mobx": "^6.15.0",
     "mobx-react-lite": "^4.0.7",
@@ -22,7 +22,6 @@
     "react-dom": "^18.3.1",
     "react-query": "^3.39.3",
     "react-router-dom": "^7.9.3",
-    "react-scripts": "5.0.1",
     "react-toastify": "^10.0.5",
     "ts-jest": "^29.2.5",
     "web-vitals": "^2.1.4",
@@ -31,10 +30,8 @@
   },
   "scripts": {
     "dev": "vite",
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "jest",
-    "eject": "react-scripts eject"
+    "build": "vite build",
+    "test": "jest"
   },
   "eslintConfig": {
     "extends": [
@@ -56,6 +53,7 @@
   },
   "devDependencies": {
     "@playwright/test": "^1.47.1",
+    "@types/node": "^24.6.2",
     "@vitejs/plugin-react": "^4.3.1",
     "playwright": "^1.47.1",
     "ts-node": "^10.9.2",
